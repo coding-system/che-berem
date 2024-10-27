@@ -102,3 +102,9 @@ function resetHeroes(heroesArray) {
 }
 
 export { getRandomElement, resetHeroes };
+if (currentSelectableHeroes[chosenIndex].selected) return;
+   else {
+      lastHeroUl.appendChild(deletedLabel);
+      // lastHeroUl.appendChild(deletedOverlay);
+      // deletedOverlay.classList.add('deleted-overlay')
+   }
